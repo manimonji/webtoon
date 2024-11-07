@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
 <body>
     <main>
+		<div class="image-container">
+			<img class="image" src="./images/tin-tin2.jpg" alt="tin tin">
+		</div>
         <h1 class="title">کمیک بخوانید یا به نمایش بگذارید</h1>
         <div class="buttons">
             <a class="btn btn-priamry" href="./signup.php">ثبت نام</a>
@@ -14,40 +19,4 @@
         </div>
     </main>
 </body>
-<style>
-    @font-face {
-        font-family: vazirmatn;
-        src: url("./fonts/vazirmatn.woff2");
-    }
-    body {
-        margin: 0;
-        font-family: vazirmatn;
-    }
-    main {
-        padding: 2rem;
-    }
-    main > .title {
-        margin: 0;
-    }
-    main > .buttons {
-        gap: 1rem;
-        margin-top: 1.5rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .btn {
-        padding: 0.5em 1em;
-        border-radius: 0.5em;
-        text-decoration: none;
-    }
-    .btn-priamry {
-        color: white;
-        background-color: #084eff;
-    }
-    .btn-secondary {
-        color: #084eff;
-        background-color: hsl(223, 100%, 92%);
-    }
-</style>
 </html>
